@@ -1,5 +1,10 @@
 package br.com.gatto.chapter1.exercises;
 
+
+/**
+ * Exercise 4
+ * Explanation:
+ */
 public class BaseballTeam {
 	private String city, mascot;
 	private int numberOfPlayers;
