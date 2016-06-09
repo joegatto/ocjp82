@@ -1,0 +1,2 @@
+- The instaceof check if left operand is the same class or interface (or a subclass).
+- 
