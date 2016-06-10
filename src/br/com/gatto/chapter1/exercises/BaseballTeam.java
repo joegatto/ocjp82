@@ -1,6 +1,5 @@
 package br.com.gatto.chapter1.exercises;
 
-
 /**
  * Exercise 4
  * Explanation:
