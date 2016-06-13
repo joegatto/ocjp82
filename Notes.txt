@@ -1,2 +1,36 @@
 - The instaceof check if left operand is the same class or interface (or a subclass).
-- 
+
+Functional Interface
+- An interface that contains a single abstract method.
+- Interfaces marked as FunctionalInterface with no abstract method or with more than one method declared, will generate a compile error.
+- Marking the interface with @FunctionalInterface is optional, but is recommend to do so.
+- Functional Interfaces can be extended, if no method is added to the interface, abstract method can be overidden and it is allowed to have default method and static methods in the interface.
+
+Deferred execution
+- Means that the code is specified now but runs later.
+
+Lambda Expressions
+- The parentheses can be omitted if there is exactly one input parameter and the type is not explicity stated in the expression.
+- Expression that have zero or more parameters requires the parenthesis.
+- If you need to write more than one line of code in a lambde, you must enclose it with braces {}.
+- When have braces {} in your code, you must finish all statements with semicolon;
+- When the abstract method return something, you must end the lambda with return statement.
+- return statement is optional when the return type of the method is void.
+- We cannot re-declare a local variable in lambda expression.
+
+Polymorphism
+- Ability of a single interface to support multiple underlying forms.
+
+Casting variables
+- Casting a object from a subclass to a superclass doesn't require an explicit cast.
+- Casting a object from a superclass to a subclass requires an explicit cast.
+- The compiler will not allow casts to unrelated types.
+- Even when the code compiles without issue, an exception may be thrown at runtime if the object being cast is not actually an instance of that class.
+
+JavaBeans convention
+- Properties are private.
+- Getter for non-boolean properties begins with get.
+- Getter for boolean properties begins with is or get.
+- Setter methods begin with set.
+- The method name must have a prefix of set/get/is followed by the first letter of the property in uppercase and followed by the rest of the property name.
+
