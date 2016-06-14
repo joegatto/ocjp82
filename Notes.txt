@@ -43,3 +43,11 @@ Has-A Relationship
 
 Object Composition
 - Construct a class using the references to other classes in order to reuse the functionality of the other classes.
+
+Immutable Pattern
+- Use a constructor to set all properties of the object.
+- Mark all of the instances variables private and final.
+- Don't define any setter methods.
+- Don't allow referenced mutable objects to be modified or accessed directly.
+- Prevent methods from being overriden.
+
