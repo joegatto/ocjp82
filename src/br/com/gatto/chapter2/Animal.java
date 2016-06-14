@@ -6,9 +6,12 @@ public class Animal {
 	private boolean canSwim;
 	private int age;
 	private String name;
-	
+
 	private boolean playing;
 	private Boolean dancing;
+
+	public Animal() {
+	}
 
 	public Animal(String speciesName, boolean hopper, boolean swimmer) {
 		species = speciesName;

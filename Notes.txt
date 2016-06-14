@@ -34,3 +34,12 @@ JavaBeans convention
 - Setter methods begin with set.
 - The method name must have a prefix of set/get/is followed by the first letter of the property in uppercase and followed by the rest of the property name.
 
+Is-A Relationship
+- Known as inheritance test.
+
+Has-A Relationship
+- Known as the object composition test
+- The property of an object having a named data object or primitive as a member.
+
+Object Composition
+- Construct a class using the references to other classes in order to reuse the functionality of the other classes.
