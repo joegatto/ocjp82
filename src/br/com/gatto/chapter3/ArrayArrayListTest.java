@@ -46,7 +46,6 @@ public class ArrayArrayListTest {
 		System.out.println(arrayToString(array3));
 		System.out.println(arrayToString(array2));
 		System.out.println(list2);
-
 	}
 
 	private static String arrayToString(String[] array) {
