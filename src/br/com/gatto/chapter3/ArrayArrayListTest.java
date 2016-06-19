@@ -2,7 +2,6 @@ package br.com.gatto.chapter3;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 public class ArrayArrayListTest {
@@ -47,21 +46,6 @@ public class ArrayArrayListTest {
 		System.out.println(arrayToString(array3));
 		System.out.println(arrayToString(array2));
 		System.out.println(list2);
-		list2.set(0, "xurupita");
-		System.out.println("After set ************************");
-		System.out.println(arrayToString(array3));
-		System.out.println(arrayToString(array2));
-		System.out.println(list2);
-
-		int[] numbers = { 6, 9, 1, 8 };
-		Arrays.sort(numbers);
-		System.out.println(Arrays.binarySearch(numbers, 6));
-		System.out.println(Arrays.binarySearch(numbers, 3));
-		
-		List<Integer> list3 = Arrays.asList(9,7,5,3);
-		Collections.sort(list3);
-		System.out.println(Collections.binarySearch(list3, 3));
-		System.out.println(Collections.binarySearch(list3, 2));
 	}
 
 	private static String arrayToString(String[] array) {

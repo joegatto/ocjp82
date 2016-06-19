@@ -51,3 +51,12 @@ Immutable Pattern
 - Don't allow referenced mutable objects to be modified or accessed directly.
 - Prevent methods from being overriden.
 
+Generics
+- The sintax for generics is to declare a formal type parameter in angle brackets <>.
+
+Unbounded Wildcard
+- Represents any data.
+- Use "?" when you want to specify that any data is OK with you.
+
+Upper-Bounded Wildcard
+- Represented by "? extends <object_type>"
