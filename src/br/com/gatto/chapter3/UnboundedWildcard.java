@@ -2,13 +2,11 @@ package br.com.gatto.chapter3;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 public class UnboundedWildcard {
 	public static void main(String[] args) {
 		List<Integer> numbers = new ArrayList<>();
 		numbers.add(new Integer(42));
-		// List<Objects> objects = numbers;
 		// objects.add("forty four");
 		// System.out.println(numbers.get(1));
 
