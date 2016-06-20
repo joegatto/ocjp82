@@ -155,3 +155,8 @@ Vector
 - Doesn't call hashCode
 - Doesn't call compareTo
 - Allows null elements
+
+compareTo()
+- Number 0 is returned when the current object is equal to the argument to compareTo().
+- Number less than 0 is returned when the current object is smaller than the argument to compareTo().
+- Number greater than 0 is returned when the current object is larger than the argument to compareTo().
