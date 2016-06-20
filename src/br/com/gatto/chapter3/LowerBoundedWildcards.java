@@ -14,7 +14,7 @@ public class LowerBoundedWildcards {
 		addSound(objects);
 
 		List<? super IOException> exceptions = new ArrayList<Exception>();
-//		exceptions.add(new Exception());
+		// exceptions.add(new Exception());
 		exceptions.add(new IOException());
 		exceptions.add(new FileNotFoundException());
 	}

@@ -60,3 +60,98 @@ Unbounded Wildcard
 
 Upper-Bounded Wildcard
 - Represented by "? extends <object_type>"
+
+List
+- It's an ordered collection of elements that allows duplicated entries.
+- Elements in a list can be accessed by an int index.
+- Elements are ordered by index
+- Has no keys and values pair.
+- Doesn't need to add/remove in a specific order.
+
+Set
+- It's a collection that doesn't allow duplicate entries.
+- Its elements aren't ordered.
+- Has no keys and values pair.
+- Doesn't need to add/remove in a specific order.  
+
+Queue
+- It's a collection that orders its elements in a specific order for processing.
+- Typically queues processes its elements using FIFO order, but it can be changed.
+- Has no keys and values pair.
+- Need to add/remove in a specific order.
+- It's ordered in a defined order.
+
+Map
+- It's a collection that maps keys to values, with no duplicated keys allowed.
+- The elements in a map are key/value pairs.
+- Doesn't need to add/remove in a specific order.
+
+ArrayList
+- Extends implements List
+- It's not sorted
+- Doesn't call hashCode
+- Doesn't call compareTo
+- Allows null elements
+
+ArrayDeque
+- Extends implements Queue
+- It's not sorted
+- Doesn't call hashCode
+- Doesn't call compareTo
+- Doesn't allows null elements
+
+HashMap
+- Extends implements Map
+- It's not sorted
+- It calls hashCode
+- Doesn't call compareTo
+- Allows null elements
+ 
+HashSet
+- Extends implements Set
+- It's not sorted
+- It calls hashCode
+- Doesn't call compareTo
+- Allows null elements
+
+Hashtable
+- Extends implements Map
+- It's not sorted
+- It calls hashCode
+- Doesn't call compareTo
+- Doesn't allows null elements
+
+LinkedList
+- Extends implements List, Queue
+- It's not sorted
+- Doesn't call hashCode
+- Doesn't call compareTo
+- Allows null elements
+
+Stack
+- Extends implements List
+- It's not sorted
+- Doesn't call hashCode
+- Doesn't call compareTo
+- Allows null elements
+
+TreeMap
+- Extends implements Map
+- It's sorted
+- Doesn't calls hashCode
+- It calls compareTo
+- Doesn't allows null elements
+
+TreeSet
+- Extends implements Set
+- It's sorted
+- Doesn't calls hashCode
+- It calls compareTo
+- Doesn't allows null elements
+
+Vector
+- Extends implements List
+- It's not sorted
+- Doesn't call hashCode
+- Doesn't call compareTo
+- Allows null elements
