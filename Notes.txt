@@ -160,3 +160,18 @@ compareTo()
 - Number 0 is returned when the current object is equal to the argument to compareTo().
 - Number less than 0 is returned when the current object is smaller than the argument to compareTo().
 - Number greater than 0 is returned when the current object is larger than the argument to compareTo().
+
+Comparable
+- Located in java.lang package
+- Interface must be implemented by a class
+- Method name is compareTo
+- It takes 1 parameters
+- It's not declared as a lambda expression.
+
+Comparator
+- Located in java.util
+- Must not be implemented by a class
+- Method name is compare
+- It take 2 parameters
+- It`s commonly declared using lambdas
+
