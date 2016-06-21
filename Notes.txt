@@ -175,3 +175,8 @@ Comparator
 - It take 2 parameters
 - It`s commonly declared using lambdas
 
+Method Reference
+- Static methods
+- Instance methods on a particular instance
+- Instance methods on an instance to be determined at runtime
+- Constructors
