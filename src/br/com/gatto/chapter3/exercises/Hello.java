@@ -2,8 +2,12 @@ package br.com.gatto.chapter3.exercises;
 
 
 /**
- * Exercise 5
- * Explanation: 
+ * Exercise 6 
+ * Explanation: C. Line 7 gives a compiler warning for not using
+ * generics but not a compiler error. Line 4 compiles fine because toString() is
+ * defined on the Object class and is therefore always available to call. Line 6
+ * creates the Hello class with the generic type String. Line 7 creates the
+ * Hello class with the generic type Object since no type is specified.
  */
 public class Hello<T> {
 	T t;
