@@ -1,6 +1,7 @@
 package br.com.gatto.chapter3.exercises;
 
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 
@@ -19,5 +20,11 @@ public class Exercise19 {
 		q.add(12);
 		q.remove(1);
 		System.out.println(q);
+		
+		List<Integer> q2 = new LinkedList<>();
+		q2.add(10);
+		q2.add(12);
+		q2.remove(1);
+		System.out.println(q2);
 	}
 }

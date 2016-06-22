@@ -40,7 +40,7 @@ public class Sorted implements Comparable<Sorted>, Comparator<Sorted> {
 		Sorted s2 = new Sorted(55, "b");
 		TreeSet<Sorted> t1 = new TreeSet<>();
 		t1.add(s1); t1.add(s2);
-		TreeSet<Sorted> t2 = new TreeSet<>(t1);
+		TreeSet<Sorted> t2 = new TreeSet<>(s1);
 		t2.add(s1); t2.add(s2);
 		System.out.println(t1 + " " + t2);
 	}

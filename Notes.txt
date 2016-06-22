@@ -180,3 +180,15 @@ Method Reference
 - Instance methods on a particular instance
 - Instance methods on an instance to be determined at runtime
 - Constructors
+
+Supplier
+- Used when we want to generate or supply values without taking any input
+- Takes no parameter
+- Return T
+- Abstract method name is get
+
+Consumers
+- Used when you want to do something with the parameter but not return anything.
+- Takes 1 parameter in Consumer<T> and 2 parameters in BiConsumer<T,U>
+- Return nothing
+- Abstract method name is accept
