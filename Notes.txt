@@ -192,3 +192,29 @@ Consumers
 - Takes 1 parameter in Consumer<T> and 2 parameters in BiConsumer<T,U>
 - Return nothing
 - Abstract method name is accept
+
+Predicate
+- Used when you want to test a condition
+- Takes 1 parameter in Predicate<T> and 2 parameters in BiPredicate<T,U>
+- Return boolean
+- Abstract method name is test
+
+Function
+- Used when you need to turn one/two parameter into a value of a potentially different type and return it.
+- Takes 1 parameter in Function<T> and 2 parameters in BiFunction<T,U>
+- Return T
+- Abstract method name is apply
+
+Unary
+- Used when you need to transform its value into one of the same type
+- Extends Function and BiFunction
+- Require all type parameter to be the same type.
+
+Stream
+- Stream in Java is a sequence of data
+- A Stream Pipelineis the operations that run on a stream to produce the result.
+- Finite streams has a limit. Infinite streams doesn't end.
+- There are 3 parts to a stream pipeline:
+  - Source: where the stream comes from.
+  - Intermediate operations: Transforms the stream into another one. Can have few or many operations.
+  - Terminal Operation>: Actually produces a result.
