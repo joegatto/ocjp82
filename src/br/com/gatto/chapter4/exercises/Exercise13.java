@@ -5,7 +5,10 @@ import java.util.List;
 
 /**
  * Exercise 13
- * Explanation:
+ * Explanation: F. If the map() and flatMap() calls were reversed,
+ * choice B would be correct. In this case, the Stream created from the source
+ * is of type Stream<List<Integer>>. The Function in map expects an Integer
+ * rather than a List<Integer>, so the code does not compile.
  */
 public class Exercise13 {
 	public static void main(String[] args) {

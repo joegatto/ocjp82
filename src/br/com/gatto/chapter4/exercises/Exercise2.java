@@ -5,8 +5,12 @@ import java.util.stream.Stream;
 
 
 /**
- * Exercise 2
- * Explanation:
+ * Exercise 2 
+ * Explanation: F. b1 is set to true since anyMatch() terminates.
+ * Even though the stream is infinite, Java finds a match on the first element
+ * and stops looking. However, when allMatch() runs, it needs to keep going
+ * until the end of the stream since it keeps finding matches. Since all
+ * elements continue to match, the program hangs.
  */
 public class Exercise2 {
 	public static void main(String[] args) {
