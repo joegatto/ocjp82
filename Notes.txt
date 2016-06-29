@@ -217,4 +217,20 @@ Stream
 - There are 3 parts to a stream pipeline:
   - Source: where the stream comes from.
   - Intermediate operations: Transforms the stream into another one. Can have few or many operations.
-  - Terminal Operation>: Actually produces a result.
+  - Terminal Operation: Actually produces a result.
+  
+LocalDate
+- Contains only a date (no time and no timezone)
+- Can only add and substract from date values
+
+LocalTime
+- Contains only a time (no date and no timezone)
+- Can only add and substract from time values
+
+LocalDateTime
+- Contains both a date and a time (no timezone)
+- Can add and substract from both date and time values
+
+ZonedDateTime
+- Contains date, time and timezone
+- Can add and substract from both date and time values
