@@ -18,6 +18,5 @@ public class MultiCatchException {
 			e.printStackTrace();
 			throw new RuntimeException();
 		}
-
 	}
 }
