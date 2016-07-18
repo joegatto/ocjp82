@@ -35,14 +35,14 @@ public class StreamTerminalOperationTests {
 		System.out.println(s.count());
 
 		System.out.println("************ min() and max() ******************");
-		s = Stream.of("bonobo", "gorilla", "monkey");
+		s = Stream.of("bonobo", "ape", "monkey");
 		Optional<String> min = s.min((s1, s2) -> s1.length() - s2.length());
 		min.ifPresent(System.out::println);
 
 		Optional<?> minEmpty = Stream.empty().min((s1, s2) -> 0);
 		System.out.println(minEmpty.isPresent());
 
-		s = Stream.of("bonobo", "gorilla", "monkey");
+		s = Stream.of("bonobo", "ape", "monkey1");
 		Optional<String> max = s.max((s1, s2) -> s1.length() - s2.length());
 		max.ifPresent(System.out::println);
 
